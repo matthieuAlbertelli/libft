@@ -6,7 +6,7 @@
 /*   By: malberte <malberte@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/07 17:08:22 by malberte          #+#    #+#             */
-/*   Updated: 2018/04/15 23:11:14 by malberte         ###   ########.fr       */
+/*   Updated: 2018/05/12 17:30:43 by malberte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,6 @@ void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void			ft_lstqueue(t_list **alst, t_list *new);
 t_list			*ft_lstdup(const t_list *link);
+void			ft_swap(int *a, int *b);
 
 #endif

@@ -6,7 +6,7 @@
 #    By: malberte <malberte@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/04/06 16:24:49 by malberte          #+#    #+#              #
-#    Updated: 2018/04/16 20:04:31 by malberte         ###   ########.fr        #
+#    Updated: 2018/05/12 17:29:32 by malberte         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,7 +71,8 @@ SOURCES= \
 		ft_lstiter.c \
 		ft_lstmap.c \
 		ft_lstqueue.c \
-		ft_lstdup.c
+		ft_lstdup.c \
+		ft_swap.c
 
 HEADERS= libft.h
 OBJECTS= 	$(SOURCES:.c=.o)
